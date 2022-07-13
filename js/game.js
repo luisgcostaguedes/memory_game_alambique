@@ -10,6 +10,7 @@ const characters = [
   "pinho",
   "savio",
   "tonelada",
+  "poro",
 ];
 
 const createElement = (tag, className) => {
@@ -24,8 +25,8 @@ let secondCard = "";
 const checkEndGame = () => {
   const disableCards = document.querySelectorAll(".disable-card");
 
-  if (disableCards.length == 18) {
-    alert("Paranéns, você ganhou!");
+  if (disableCards.length == 20) {
+    alert("Parabéns, você ganhou!");
   }
 };
 
